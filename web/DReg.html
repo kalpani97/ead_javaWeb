@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+
+<head>
+    <title>DOC REGISTRATION</title>
+
+    <style>
+        body {
+            background-image: url("img/doc18.jpg");
+            background-color: #cccccc;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style2.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="regbox box">
+            <img class="avatar" src="img/doc2.png">
+            <h1>DOCTOR REGISTRATION</h1>    
+
+            <form method="post" action="DocReg1">
+
+                <table style="with: 50%">
+
+
+                    <tr>
+                        <td>ID</td>
+                        <td><input type="text" placeholder="Your ID" name="id" required ></td>
+                    </tr> 
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" placeholder="Name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" placeholder="Password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text" placeholder="Phone" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td>Specialty</td>
+                        <td>
+                            <select name="specialty"
+                                    <option value="NEURO">NEURO</option>
+                                <option value="ENT">ENT</option>
+                                <option value="GENERAL">GENARAL</option>
+                                <option value="PEDS">PEDS</option>
+                                <option value="CARDIO">CARDIO</option>
+                                <option value="NEURO">NEURO</option>
+                                <option value="ORTHO">ORTHO</option>
+                            </select>
+
+                        </td>
+                    </tr></table>
+
+
+
+
+                <p>    <input type="submit" value="REGISTER" /> </p>
+
+                <p>   <a href="DLog.jsp">Already have an Account?</a></p>
+
+            </form>
+
+        </div>    
+    </div>
+</body>
+
